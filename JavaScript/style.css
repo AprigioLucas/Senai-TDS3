@@ -1,0 +1,19 @@
+
+.primeiraDivClass{
+    background-color: #A52A2A;
+}
+
+.principal{
+    background-color: lightgray;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.columnlabelWithInput{
+    display: flex;
+    flex-direction: column;
+}
