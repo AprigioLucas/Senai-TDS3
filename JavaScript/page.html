@@ -1,132 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATV FIRST</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ATV FIRST</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     
-    <script src="script.js"></script>
+     <script src="script.js"></script>
 
-</head>
-<body>
+    </head>
+
+ <body>
     <div class="primeiraDivClass">
-         <h1>Atividade 01</h1>
-         <p class="parag">Primeira atividade de HTML da aula de TDS</p>
+        <h1>Atividade 01</h1>
+        <p class="parag">Primeira atividade de HTML da aula de TDS</p>
     </div>
 
 
     <div class="principal" >
         <div class="cards">
-        <h5>Calculo de soma</h5>
+           <h5>Calculo de soma</h5>
         
-        <div class="columnLabelWithInput">
-        <label for="num1" >Digite o  número</label>
-        <input type="number" id="num1" />
-        </div>
+            <div class="columnLabelWithInput">
+              <label for="num1" >Digite o  número</label>
+              <input type="number" id="num1" />
+            </div>
 
-        <div class="columnLabelWithInput">
-        <label for="num2" >Digite o  número</label>
-        <input type="number"id="num2" />
-        </div>
+          <div class="columnLabelWithInput">
+             <label for="num2" >Digite o  número</label>
+             <input type="number"id="num2" />
+          </div>
 
-        
-        <button onclick="soma()">Calcular</button>
+          <button onclick="soma()">Calcular</button>
        
-        <div>
-            <p>Resultado: <span id="resSoma"></span></p>
-        </div>
+            <div>
+              <p>Resultado: <span id="resSoma"></span></p>
+            </div>
         
-    </div>
-       
-        <div class="cards">
-        <h5>Calculo de subtração</h5>
-       <div class="columnLabelWithInput">
-        <label for="num3" >Digite o  número</label>
-        <input type="number" id="num3" />
-        </div>
-        <div class="columnLabelWithInput">
-        <label for="num4" >Digite o  número</label>
-        <input type="number" id="num4" />
-        
-       </div>
-        <button onclick="subtracao()">Calcular</button>
-        <div>
-            <p>Resultado: <span id="resSub"></span></p>
-        </div>
-
-        </div>
-        
-        <div class="cards">
-        <h5>Calculo de divisão</h5>
-        <div class="columnLabelWithInput">
-        <label for="num5" >Digite o número</label>
-        <input type="number" id="num5"/>
-        </div>
-        
-        <div class="columnLabelWithInput">
-        <label for="num6" >Digite o número</label>
-        <input type="number" id="num6" />
-        </div>
-        
-        <button onclick="divisao()">Calcular</button>
-       
-        <div>
-            <p>Resultado: <span id="resDivi"></span></p>
-        </div>
-
         </div>
        
         <div class="cards">
-        <h5>Calculo de multiplicação</h5>
-        <div class="columnLabelWithInput">
-        <label for="num7" >Digite o número</label>
-        <input type="number" id="num7"/>
+          <h5>Calculo de subtração</h5>
+           <div class="columnLabelWithInput">
+             <label for="num3" >Digite o  número</label>
+             <input type="number" id="num3" />
+           </div>
+         
+           <div class="columnLabelWithInput">
+             <label for="num4" >Digite o  número</label>
+             <input type="number" id="num4" />
+           </div>
+
+            <button onclick="subtracao()">Calcular</button>
+        
+           <div>
+              <p>Resultado: <span id="resSub"></span></p>
+           </div>
+
         </div>
-        <div class="columnLabelWithInput">
-        <label for="num8" >Digite o número</label>
-        <input type="number" id="num8"/>
-        </div>
-        <button onclick="multiplicacao()">Calcular</button>
+        
+        <div class="cards">
+         <h5>Calculo de divisão</h5>
+          <div class="columnLabelWithInput">
+              <label for="num5" >Digite o número</label>
+              <input type="number" id="num5"/>
+          </div>
+        
+           <div class="columnLabelWithInput">
+              <label for="num6" >Digite o número</label>
+              <input type="number" id="num6" />
+           </div>
+        
+           <button onclick="divisao()">Calcular</button>
        
-        <div>
-            <p>Resultado: <span id="resMult"></span></p>
+           <div>
+              <p>Resultado: <span id="resDivi"></span></p>
+           </div>
+
         </div>
+       
+        <div class="cards">
+          <h5>Calculo de multiplicação</h5>
+            
+          <div class="columnLabelWithInput">
+                <label for="num7" >Digite o número</label>
+                <input type="number" id="num7"/>
+           </div>
+           
+           <div class="columnLabelWithInput">
+                <label for="num8" >Digite o número</label>
+                <input type="number" id="num8"/>
+          </div>
+              
+          <button onclick="multiplicacao()">Calcular</button>
+       
+           <div>
+                <p>Resultado: <span id="resMult"></span></p>
+          </div>
+
         </div>
 
         <div class="cards">
             <h5>Calculo de media</h5>
-            <div class="columnLabelWithInput">
-            <label for="num9" >Digite o número</label>
-            <input type="number" id="num9"/>
+
+             <div class="columnLabelWithInput">
+                <label for="num9" >Digite o número</label>
+                <input type="number" id="num9"/>
             </div>
+
             <div class="columnLabelWithInput">
-            <label for="num10" >Digite o número</label>
-            <input type="number" id="num10"/>
+                <label for="num10" >Digite o número</label>
+                <input type="number" id="num10"/>
             </div>
+
             <div class="columnLabelWithInput">
-            <label for="num11" >Digite o número</label>
-            <input type="number" id="num11"/>
+                <label for="num11" >Digite o número</label>
+                <input type="number" id="num11"/>
             </div>
+
             <button onclick="media()">Calcular</button>
            
             <div>
                 <p>Resultado: <span id="resMedia"></span></p>
+                <span class="condicional" id="cond">Aprovado </span>
+                 <span class="condicionalNegada" id="condn">Reprovado</span>
             </div>
            
         
 
-    </div>
+        </div>
 
-   </div>
+    </div>
     
+    <button onclick ="limpar()">Limpar campos</button>
    
 </body>
 </html>

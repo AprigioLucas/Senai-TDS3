@@ -40,6 +40,30 @@ var num10 = document.getElementById("num10").valueAsNumber;
 var num11 = document.getElementById("num11").valueAsNumber;
 var res = (num9+num10+num11) / 3;
 console.log(res);
+
+ var x = document.getElementById("resMedia");
+ var resboa = document.getElementById("cond");
+ var resruim = document.getElementById("condn");
+
+ if (res > 7){
+     x.style.color = "green"
+     resboa.style.display = "block"
+     resboa.style.color = "green"
+     resruim.style.display = "none"
+
+
+ }else{
+     x.style.color = "red"
+     resruim.style.display = "block"
+     resruim.style.color = "red"
+     resboa.style.display ="none"    
+
+ }
+
 document.getElementById("resMedia").textContent = res.toFixed(2);
 
+}
+
+function limpar(){
+    window.location.reload();
 }
