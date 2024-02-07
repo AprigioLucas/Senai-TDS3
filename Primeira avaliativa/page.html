@@ -22,7 +22,7 @@
      
 
       <div id="p1" class="profile01">
-         <p>Perfil 01</p>
+         <p></p>
          <img class="Foto" src="https://lh3.googleusercontent.com/a/ACg8ocLwXc4QXz2aL3SpLh0uqB2ZbPZ8lN3tSLcqyyKNWCePd7Q=s288-c-no" alt="deu ruim">
          <div class ="descricao">
             <h3>Lucas -Desenvolvimento de sistemas</h3>
@@ -31,18 +31,78 @@
      </div>
 
       <div id="p2" class="profile02">
-         <p>Perfil 02</p>
+         <p></p>
+         <img class="Foto" src="https://lh3.googleusercontent.com/a/ACg8ocLwXc4QXz2aL3SpLh0uqB2ZbPZ8lN3tSLcqyyKNWCePd7Q=s288-c-no" alt="deu ruim">
+         <div class ="descricao">
+            <h3>Lucas -Desenvolvimento de sistemas</h3>
+            <p>Primeira atividade avaliativa</p>
+         </div>
       </div>
 
       <div id="tec" class="tec">
-         <p>Tecnologias</p>
+         <p></p>
+         
+         <div class="css_desc">
+            <div class="img_tec">
+              <img onclick="css_descricao()" class="img" src="https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png" alt="deu ruim">
+            </div>
+            <div class="tec_descricao">
+               <p><span id="css_desc"></span>
+            </div>
+         </div>
+
+         <div class="JavaScript">
+            <div class="img_tec">
+               <img onclick="html_descricao()" class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/260px-Unofficial_JavaScript_logo_2.svg.png" alt="deu ruim">
+            </div>
+            <div class="tec_descricao">
+               <p><span id="JavaScript_desc"></span>
+            </div>
+          </div>
+
+        <div class="html">
+          <div class="img_tec">
+             <img onclick="html_descricao()" class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt="deu ruim">
+         
+            </div>
+          <div class="tec_descricao">
+             <p><span id="html_desc"></span>
+          </div>
+        </div>
+
       </div>
 
       <div id="contact" class="contact">
-         <p>Contatos</p>
-      </div>
+         <div>
+           <div>
+              <h3>Contato</h3>
+              <p>Mande uma mensagem para nossa equipe: </p>
+          </div>
+        </div>
+       
+        <div>
+           <label for="nome">Nome</label>
+           <input type="text"id="nome">
+        </div>
+          <div>
+             <label for="mensagem">Mensagem</label>
+             <textarea type="text" id="mensagem"></textarea>
+           </div>
+          <div>
+      
+            <button onclick="conferirMensagemWhatsapp()">Conferir dados inseridos</button>
 
-    
+         </div>
+        
+        <div>
+          <p>Nome: <span id="confNome"></span></p>
+          <p>Mensagem: <span id="confMgs"></span></p>
+         </div>
 
+           <div>
+            <button onclick="enviar()">Whatsapp</button>
+           </div>
+
+         <div>
 </body>
 </html>

@@ -8,13 +8,14 @@ html{
 }
 
 header{
-    background-color: gray;
+    background-color: #12372A;
     padding-top: 15px;
     width: 100%;
     height: 30px;
     position: fixed; 
     top: 0;
-    box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; 
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    z-index: 999; 
 }
 
 ul{
@@ -26,26 +27,33 @@ ul{
     width: 100%;
 }
 
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 a{
-    color:white;
+    color: #00FFC6;
     opacity: 0.8;
     text-decoration:none;
     transition: all 200ms linear;
 }
 a:hover{
-    text-decoration: underline;
-    cursor: pointer;
     opacity: 1;
     transition: all 200ms linear;
- 
+    text-decoration: solid;
+    transform: scale(1.1);
+    cursor: pointer;
  }
 
 .profile01{
-    margin-top: 30px;
+    
     width: 100%;
     height: 500px;
-    background-color: green;
-    justify-content: left;
+    background-color: #436850;
+    justify-content: center;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -56,21 +64,13 @@ a:hover{
 .profile02{
     width: 100%;
     height: 500px;
-    background-color: yellow;
-
-}
-
-.tec{
-    width: 100%;
-    height: 500px;
-    background-color: green;
-
-}
-
-.contact{
-    width: 100%;
-    height: 500px;
-    background-color: red;
+    background-color: #ADBC9F;
+    justify-content : center;
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 130px;
+    
 
 }
 
@@ -78,4 +78,56 @@ a:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 100%;
     max-height: 159px;
+    transition: all 0.5s;
 }
+
+.Foto:hover{
+
+    transform: scale(1.1) ;
+    
+    }
+    
+    
+
+.tec{
+    width: 100%;
+    height: 500px;
+    background-color:  #436850;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+}
+
+.img_tec{
+    max-height: 150px;
+    max-width: auto;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
+}
+
+.img{
+    max-height: 200px;
+    max-width: 100%;
+    transition: all 0.5s;
+    border-radius: 100%;
+    display: flex;
+}
+
+.img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.contact{
+    width: 100%;
+    height: 500px;
+    background-color: #ADBC9F;
+    padding: 30px;
+
+}
+
+
+
