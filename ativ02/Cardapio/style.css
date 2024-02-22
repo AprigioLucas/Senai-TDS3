@@ -1,0 +1,46 @@
+body{
+    background-color: #212121;
+    background-image:url(../assets/img/fundo-browser.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+h1,h2,p{
+    color:#fdfaf0;
+    font-size: 2.5rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.card{
+    width: 18rem;
+}
+
+.wrap_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card-img-top{
+    align-items: center;
+    padding: 1rem;
+    width: 18rem;
+    height: auto;
+}
