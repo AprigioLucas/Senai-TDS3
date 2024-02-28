@@ -87,17 +87,16 @@ function calcularTotal(){
      document.getElementById("prato-pronto").innerHTML = prato.toFixed(2)
      document.getElementById("bebida-pronto").innerHTML = bebida.toFixed(2)
      document.getElementById("sobremesa-pronto").innerHTML = sobremesa.toFixed(2)
-     resultadoSpan.textContent = "R$" + total.toFixed(2)
+     resultadoSpan.textContent = "R$ " + total.toFixed(2)
 
-     function limpar(){
-        document.getElementById("total").style.display = "none"
-        document.getElementById("selects-div").style.display = "none"
-        document.getElementById("exampleFormControlInput1").value = ""
-        document.getElementById("resultado").value = ""
-        document.getElementById("selectPrato").value = "Selecione um prato"
-        document.getElementById("selectBebida").value = "Selecione uma bebida"
-        document.getElementById("selectSobremesa").value = "Selecione uma sobremesa"
-
-     }
+function limpar(){
+  document.getElementById("total").style.display = "none"
+  document.getElementById("selects-div").style.display = "none"
+  document.getElementById("exampleFormControlInput1").value = ""
+  document.getElementById("resultado").value = ""
+  document.getElementById("selectPrato").value = "Selecione um prato"
+  document.getElementById("selectBebida").value = "Selecione uma bebida"
+  document.getElementById("selectSobremesa").value = "Selecione uma sobremesa"
+}
 
 }
