@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
+    <title>Primeira Atividade</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -24,45 +24,35 @@
       <div id="p1" class="profile01">
          <p></p>
          <img class="Foto" src="https://lh3.googleusercontent.com/a/ACg8ocLwXc4QXz2aL3SpLh0uqB2ZbPZ8lN3tSLcqyyKNWCePd7Q=s288-c-no" alt="deu ruim">
-         <div class ="descricao">
-            <h3>Lucas -Desenvolvimento de sistemas</h3>
-            <p>Primeira atividade avaliativa</p>
-         </div>
+         <div class="profile_info">
+            <div class ="descricao">
+               <h3>Lucas -Desenvolvimento de sistemas</h3>
+               <p>
+                  Nascido em 16 de maio de 2006, atualmente ele tem 17 anos. Ele está atualmente matriculado no curso de Técnico de Desenvolvimento de Sistemas no Senai, no terceiro e último módulo do programa. Ele trabalha na área de tecnologia e pretende continuar trabalhando nessa área, aprofundando ainda mais seus conhecimentos. Ele fez outros cursos, tanto em mecânica quanto em desenvolvimento e análise de sistemas, tendo conhecimentos básicos de front-end e back-end, embora ainda um tanto superficiais. Seus hobbies incluem ver videos, ouvir música e praticar esportes.</p>
+            </div>
+      </div>
      </div>
 
       <div id="p2" class="profile02">
          <p></p>
-         <img class="Foto" src="https://lh3.googleusercontent.com/a/ACg8ocLwXc4QXz2aL3SpLh0uqB2ZbPZ8lN3tSLcqyyKNWCePd7Q=s288-c-no" alt="deu ruim">
-         <div class ="descricao">
-            <h3>Lucas -Desenvolvimento de sistemas</h3>
-            <p>Primeira atividade avaliativa</p>
+         <img class="Foto" src="https://avatars.githubusercontent.com/u/132717019?v=4" alt="picture_profile">
+            <div class="profile_info">
+               <div class ="descricao">
+               <h3>Iasmin -Desenvolvimento de sistemas</h3>
+               <p>Born on April 10, 2002, she is currently 21 years old. She is currently enrolled in the Systems Development Technician course at Senai, in the third and final module of the program. She works in the technology field and intends to continue working in this area while further deepening her knowledge. She has taken other courses in both marketing and systems development and analysis, possessing basic knowledge of both front and back end, although still somewhat superficial. Her hobbies include reading, listening to music, and studying.</p>
+            </div>
          </div>
       </div>
 
       <div id="tec" class="tec">
          <p></p>
          
-         <div class="css_desc">
-            <div class="img_tec">
-              <img onclick="css_descricao()" class="img" src="https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png" alt="deu ruim">
-            </div>
-            <div class="tec_descricao">
-               <p><span id="css_desc"></span>
-            </div>
-         </div>
+        
+       
 
-         <div class="JavaScript">
-            <div class="img_tec">
-               <img onclick="html_descricao()" class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/260px-Unofficial_JavaScript_logo_2.svg.png" alt="deu ruim">
-            </div>
-            <div class="tec_descricao">
-               <p><span id="JavaScript_desc"></span>
-            </div>
-          </div>
-
-        <div class="html">
+        <div class="html_desc">
           <div class="img_tec">
-             <img onclick="html_descricao()" class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt="deu ruim">
+             <img onclick="html_descricao()" class="img" src="../Primeira avaliativa/img/HTML.png"alt="HTML">
          
             </div>
           <div class="tec_descricao">
@@ -70,9 +60,31 @@
           </div>
         </div>
 
+        <div class="css_desc">
+         <div class="img_tec">
+           <img onclick="css_descricao()" class="img" src="../Primeira avaliativa/img/CSS.png" alt="CSS">
+         </div>
+         <div class="tec_descricao">
+            <p><span id="css_desc"></span>
+         </div>
+      </div>
+
+      <div class="js_desc">
+         <div class="img_tec">
+            <img onclick="js_descricao()" class="img" src="../Primeira avaliativa/img/JS.png" alt="JS">
+         </div>
+         <div class="tec_descricao">
+            <p><span id="js_desc"></span>
+         </div>
+       </div>
+
+
       </div>
 
       <div id="contact" class="contact">
+         
+         <div>
+         
          <div>
            <div>
               <h3>Contato</h3>
@@ -81,28 +93,35 @@
         </div>
        
         <div>
-           <label for="nome">Nome</label>
-           <input type="text"id="nome">
+           <label for="nome">Nome: </label>
+           <input type="text"id="nome" placeholder=" Nome">
         </div>
-          <div>
-             <label for="mensagem">Mensagem</label>
-             <textarea type="text" id="mensagem"></textarea>
-           </div>
-          <div>
+            <div>   
+               <label for="mensagem">Mensagem: </label>
+               <div>
+                  <textarea type="text" id="mensagem" class="input_style"  placeholder=" Mensagem " oninput="grow(this)"></textarea>
+            </div> 
+            </div>
+            <div>
       
             <button onclick="conferirMensagemWhatsapp()">Conferir dados inseridos</button>
 
          </div>
         
-        <div>
-          <p>Nome: <span id="confNome"></span></p>
-          <p>Mensagem: <span id="confMgs"></span></p>
-         </div>
+      </div>
+      
+      <div>
 
-           <div>
-            <button onclick="enviar()">Whatsapp</button>
-           </div>
+        <div>
+           <p>Nome: <span id="confNome"></span></p>
+           <p>Mensagem: <span id="confMgs"></span></p>
+        </div>
 
          <div>
+            <button onclick="enviar()">Whatsapp</button>
+         </div>
+      </div>
+         
+      <div>
 </body>
 </html>
