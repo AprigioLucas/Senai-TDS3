@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 30px;
+}
+
+
+.form-check-input{
+    transform: scale(1.5) !important;
+    margin-left: 3vw;
+}
+
+.light{
+    background-color: blueviolet;
+}
+
+html{
+    background-color: aqua;
+
+}
