@@ -50,7 +50,6 @@ function calcularTotal(){
             break;
      }
 
-
      switch (selectBebidas.value) {
         case "Tea":
             total = total + 4.90
@@ -89,6 +88,8 @@ function calcularTotal(){
      document.getElementById("sobremesa-pronto").innerHTML = sobremesa.toFixed(2)
      resultadoSpan.textContent = "R$ " + total.toFixed(2)
 
+    }
+
 function limpar(){
   document.getElementById("total").style.display = "none"
   document.getElementById("selects-div").style.display = "none"
@@ -99,4 +100,6 @@ function limpar(){
   document.getElementById("selectSobremesa").value = "Selecione uma sobremesa"
 }
 
-}
+
+
+
