@@ -17,7 +17,7 @@ p{
 }
 
 h1,h2{
-    color: rgb(121, 150, 150);
+    color: rgb(204, 230, 230);
     font-size: 2.5rem;
 }
 
@@ -51,10 +51,12 @@ h1,h2{
 }
 
 .pedido-text,.menu-text{
-    color: rgb(121, 150, 150);
+    color: rgb(204, 230, 230);
+
 }
 
 .bi-back, .bi-book {
-    fill: rgb(121, 150, 150);
+    fill: rgb(204, 230, 230);
+
 
 }

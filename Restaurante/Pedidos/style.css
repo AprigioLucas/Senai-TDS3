@@ -59,11 +59,12 @@
 }
 
 .cardapio-text,.menu-text,.comecar-text{
-  color: rgb(121, 150, 150);
+  color: rgb(204, 230, 230);
 }
 
 .bi-back, .bi-book {
-  fill: rgb(121, 150, 150);
+  fill: rgb(204, 230, 230);
+  
 
 }
 
