@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table to Excel</title>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>| Tabela para Excel |</h1>
+
+    <div class="blocos">
+        <input class="inpt" type="text" id="nome" placeholder="Insira uma descrição">
+        <input class="inpt" type="number" id="valor" placeholder="Insira o valor do produto">
+        <input class="inpt" type="number" id="quantidade" placeholder="Insira a quantidade">
+    </div>
+
+    <br>
+    <div class="Adic_item">
+        <button class ="btt" onclick="adicionarItem()">Adicionar a tabela 📉</button>
+    </div>
+    <br>
+<div class="tabela">
+
+    <table id="tabela">
+        <thead>
+            <tr>
+
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Qtde</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<div>
+
+    <input type="text" id ="nomeRemover" placeholder="Nome para remover">
+    <button onclick="removerItem()"> Remover ❌</button>
+
+</div>
+
+
+
+<br>
+<div class="exp_excel">
+<button class ="btt" onclick="exportarParaExcel()">Exportar para Excel ☑️</button>
+</div>
+
+
+</body>
+</html>
