@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding:0.5em ;
+width: 100vw;
+height: auto;
+overflow-x: hidden;
+background-image: url("./image/background.png");
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    height: auto;
+    width: 90%;
+    padding: 1em
+}
+
+.card{
+    display: flex;
+    width: 15rem;
+    height: auto;
+    flex-direction: column;
+    background-color:lightslategray;
+    align-items: center;
+    gap: 2em;
+    justify-content: center;
+    padding: 1em;
+
+
+}
+
+h3,p{
+    color:black ;
+}
+
+.bolinha{
+    border-radius: 100%;
+    max-width: 2em;
+    max-height: 2em;
+}

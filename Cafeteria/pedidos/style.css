@@ -75,15 +75,12 @@
     }
   
     .btn-custom {
-      background-color: #ff5733; /* Substitua pela cor desejada */
-      color: white; /* Cor do texto no botão */
-      border-color: #ff5733; /* Cor da borda do botão */
+      color: white;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px, rgb(0, 0, 0) 0px 0px 0px 1px;
   }
   
   .btn-custom:hover {
-      /* background-color: #d64529; Cor diferente ao passar o mouse sobre o botão */
-      border-color: #000000; /* Cor da borda ao passar o mouse sobre o botão */
+      border-color: #000000; 
   }
 
   }

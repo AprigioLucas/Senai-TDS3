@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    
+<img src="../RickAndMortyAPI/image/Rick-and-Morty.png" alt="logo" width="500px auto">
+
+<div>
+    <label for="pageInput">Digite a página (1/42)</label>
+    <input type="text" id="pageInput">
+    <button onclick="fetchCharacters()">Mostrar</button>
+</div>
+
+<div>
+
+    <label for="nameInput">Buscar por nome</label>
+    <input type="text" id="nameInput">
+    <button onclick="searchByName()">Buscar</button>
+
+</div>
+
+<div id="container"></div>
+
+</body>
+</html>
