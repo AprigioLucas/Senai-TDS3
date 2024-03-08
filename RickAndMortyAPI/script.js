@@ -30,29 +30,24 @@ function displayCharacters(characters){
        
        const VivoouMorto = document.createElement("div")
         VivoouMorto.className = "bolinha"
+        VivoouMorto.textContent = "";
         
        const totalzin = document.createElement("div")
        totalzin.className = "totalzin"
 
-        const status_existencia = createElement("p")
+        const status_existencia = document.createElement("p")
                 
         status_existencia.textContent = `Status: ${character.status}`
 
         switch (character.status) {
             case "Alive":
-                
             VivoouMorto.style.backgroundColor = "green"
-
             break;
-
             case "Dead":
-                
             VivoouMorto.style.backgroundColor = "red"
-
                 break;
-        
             default:
-                VivoouMorto.style.backgroundColor = "gray"
+                VivoouMorto.style.backgroundColor = "black"
                 break;
         }
 

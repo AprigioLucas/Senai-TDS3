@@ -48,8 +48,20 @@ h3,p{
     color:black ;
 }
 
+
 .bolinha{
-    border-radius: 100%;
-    max-width: 2em;
-    max-height: 2em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 5px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.totalzin{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
