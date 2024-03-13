@@ -69,6 +69,10 @@ input:focus{
     gap: 1vh
 }
 
+#error-modal{
+    display: none;
+}
+
 button{
     padding: 5px 15px;
     background-color: dimgray;
@@ -80,3 +84,4 @@ button:hover{
     border: 2px double black;
     cursor: pointer;
 }
+

@@ -11,7 +11,7 @@ function login(){
 
         localStorage.setItem("user", JSON.stringify(user))
         window.location.href = "../Store"
-        console.log("deu boa")
+        // console.log("deu boa")
     }else{
         document.getElementById("error-modal").style.display = "flex";
         document.getElementById("user").style.borderColor = "2px solid red";
@@ -29,7 +29,7 @@ function closeError(){
 function showPassword(){
     var inputPassword = document.querySelector('#password');
 
-    if(inputPassword.getAttribute("type")=== "password"){
+    if(inputPassword.getAttribute("type") === "password"){
         inputPassword.setAttribute("type", "text")
     }else{
         inputPassword.setAttribute("type", "password")

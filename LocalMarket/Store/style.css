@@ -1,10 +1,30 @@
 *{
+    margin: 0;
     padding: 0;
-    width: 0;
     font-family: "Poppins", sans-serif;
-
 }
-
 body{
-    padding: 0;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    padding: 2em;
+    background-color: gray;
 }
+
+.idPerfil{
+    display: flex;
+    gap: 10px;
+    color:black;
+}
+
+.title{
+    color: black
+}
+
+@media (width <= 900px){
+    .center{
+        justify-content: center;
+        gap: 2vh;
+    }
+}
+
