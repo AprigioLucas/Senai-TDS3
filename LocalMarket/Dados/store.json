@@ -2,23 +2,30 @@
 
     {
         "id":1,
-        "descricao": "Produto 1",
-        "imagem": "../Images/maconha1.webp",
-        "preco": 10.0
+        "descricao": "Terrário de Suculentas",
+        "imagem": "../Images/suculenta1.webp",
+        "preco": 100.00
     },
     
     {
         "id":2,
-        "descricao": "Produto 2",
-        "imagem": "../Images/maconha2.jpg",
-        "preco": 145.0
+        "descricao": "Suculenta",
+        "imagem": "../Images/suculenta2.webp",
+        "preco": 5.00
     },
     
     {
         "id":3,
-        "descricao": "Produto 3",
-        "imagem": "../Images/maconha3.jpg",
-        "preco": 98.0
+        "descricao": "Terrário de Cactos",
+        "imagem": "../Images/cacto1.jpg",
+        "preco": 110.00
+    },
+
+    {
+        "id":4,
+        "descricao": "Cacto",
+        "imagem": "../Images/cacto2.jpg",
+        "preco": 10.00
     }
 
 ]

@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", function(){
             card.className = "card"
             card.style.width = "18rem"
             card.style.marginRight = "10px"
+            card.classList.add("produto-card");
+
 
             const imagem = document.createElement("img");
             imagem.src = produto.imagem;
