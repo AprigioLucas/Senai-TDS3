@@ -9,6 +9,7 @@ body{
     overflow-x: hidden;
     padding: 2em;
     background-color: gray;
+    
 }
 
 .idPerfil{
@@ -25,9 +26,13 @@ body{
     .center{
         justify-content: center;
         gap: 2vh;
+        
     }
 }
 
 .produto-card{
     background-color:lightcyan;
+    margin-bottom: 10px; 
+    padding: 5px;
+    
 }

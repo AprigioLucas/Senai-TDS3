@@ -26,6 +26,20 @@
         "descricao": "Cacto",
         "imagem": "../Images/cacto2.jpg",
         "preco": 10.00
+    },
+
+    {
+        "id":5,
+        "descricao": "Arranjo de suculentas",
+        "imagem": "../Images/suculentas3.webp",
+        "preco": 125.00
+    },
+
+    {
+        "id":5,
+        "descricao": "Suculenta no pote de madeira",
+        "imagem": "../Images/suculenta5.jpg",
+        "preco": 10.00
     }
 
 ]

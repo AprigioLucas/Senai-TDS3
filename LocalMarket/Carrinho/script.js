@@ -75,7 +75,7 @@ function gerarDocumentoWord(){
     const link = document.createElement("a");
 
     link.href = URL.createObjectURL(blob)
-    link.download = "Pedido_feito.doc"
+    link.download = "Nota_Fiscal.doc"
     link.click();
     document.getElementById("pedido").style.display = "block"
 }
